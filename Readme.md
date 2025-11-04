@@ -468,7 +468,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **M S Rishav Subhin**
 
 - GitHub: [@msrishav-28](https://github.com/msrishav-28)
-- Email: [msrishavsubhin@gmail.com](mailto:msrishavsubhin@gmail.com)
+- Email: [msrishavsubhin@gmail.com](mailto:msrishav28@gmail.com)
 
 ---
 
