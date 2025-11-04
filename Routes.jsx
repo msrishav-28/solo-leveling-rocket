@@ -3,12 +3,17 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
-import RewardScreen from './pages/reward-screen';
-import QuestCompletionModal from './pages/quest-completion-modal';
-import LandingPage from './pages/landing-page';
-import Dashboard from './pages/dashboard';
-import Leaderboard from './pages/leaderboard';
-import QuestCreationModal from './pages/quest-creation-modal';
+import RewardScreen from 'pages/reward-screen';
+import QuestCompletionModal from 'pages/quest-completion-modal';
+import LandingPage from 'pages/landing-page';
+import Dashboard from 'pages/dashboard';
+import Leaderboard from 'pages/leaderboard';
+import QuestCreationModal from 'pages/quest-creation-modal';
+import Registration from 'pages/registration';
+import HunterNameSelection from 'pages/hunter-name-selection';
+import Onboarding from 'pages/onboarding';
+import Profile from 'pages/profile';
+import Settings from 'pages/settings';
 
 const Routes = () => {
   return (
@@ -18,12 +23,17 @@ const Routes = () => {
       <RouterRoutes>
         {/* Define your route here */}
         <Route path="/" element={<LandingPage />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/hunter-name-selection" element={<HunterNameSelection />} />
+        <Route path="/onboarding" element={<Onboarding />} />
         <Route path="/reward-screen" element={<RewardScreen />} />
         <Route path="/quest-completion-modal" element={<QuestCompletionModal />} />
         <Route path="/landing-page" element={<LandingPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/quest-creation-modal" element={<QuestCreationModal />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/settings" element={<Settings />} />
         <Route path="*" element={<NotFound />} />
       </RouterRoutes>
       </ErrorBoundary>
