@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 import Image from '../../../components/AppImage';
 import RankBadge from './RankBadge';
 

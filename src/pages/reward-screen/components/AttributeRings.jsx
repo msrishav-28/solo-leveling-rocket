@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 
 const AttributeRings = ({ attributeGains, playerAttributes }) => {
   const [animationPhase, setAnimationPhase] = useState(0);

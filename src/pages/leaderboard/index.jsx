@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Icon from '../../components/AppIcon';
+import Icon from '../../components/AppIcon.jsx';
 import Header from '../../components/ui/Header';
 import SearchFilters from './components/SearchFilters';
 import LeaderboardTable from './components/LeaderboardTable';

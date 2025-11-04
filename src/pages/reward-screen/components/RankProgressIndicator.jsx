@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 
 const RankProgressIndicator = ({ currentRank, newRank, isRankUp }) => {
   const [showRankUp, setShowRankUp] = useState(false);

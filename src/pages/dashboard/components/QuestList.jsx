@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 import Button from '../../../components/ui/Button';
 
 const QuestList = ({ quests, onCompleteQuest, onEditQuest }) => {

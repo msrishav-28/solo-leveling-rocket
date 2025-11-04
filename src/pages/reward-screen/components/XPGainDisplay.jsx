@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 
 const XPGainDisplay = ({ baseXP, multiplier, streakBonus, timeBonus, totalXP, difficulty }) => {
   const [animationPhase, setAnimationPhase] = useState(0);

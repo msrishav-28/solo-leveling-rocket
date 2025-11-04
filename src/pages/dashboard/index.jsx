@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Header from '../../components/ui/Header';
 import Button from '../../components/ui/Button';
-import Icon from '../../components/AppIcon';
+import Icon from '../../components/AppIcon.jsx';
 import PlayerStats from './components/PlayerStats';
 import QuestList from './components/QuestList';
 import RecentAchievements from './components/RecentAchievements';

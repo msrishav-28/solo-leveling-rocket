@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 
 const FeatureCard = ({ icon, title, description, benefits, delay = 0 }) => {
   return (

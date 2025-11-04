@@ -6,7 +6,7 @@ import AttributeRings from './components/AttributeRings';
 import RankProgressIndicator from './components/RankProgressIndicator';
 import AchievementNotifications from './components/AchievementNotifications';
 import ActionButtons from './components/ActionButtons';
-import Icon from '../../components/AppIcon';
+import Icon from '../../components/AppIcon.jsx';
 
 const RewardScreen = () => {
   const location = useLocation();

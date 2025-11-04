@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../../components/AppImage';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 
 const TestimonialCard = ({ user, content, rating, rank, delay = 0 }) => {
   const renderStars = (rating) => {

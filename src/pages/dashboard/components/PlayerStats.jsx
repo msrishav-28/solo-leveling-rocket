@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 
 const PlayerStats = ({ player }) => {
   const getRankColor = (rank) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/AppIcon.jsx';
 import Input from '../../../components/ui/Input';
 
 const SchedulingOptions = ({ 

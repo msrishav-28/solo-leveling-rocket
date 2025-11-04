@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Icon from '../../components/AppIcon';
+import Icon from '../../components/AppIcon.jsx';
 import Input from '../../components/ui/Input';
 import Button from '../../components/ui/Button';
 import QuestTypeSelector from './components/QuestTypeSelector';
