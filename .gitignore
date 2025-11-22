@@ -1,8 +1,96 @@
-.DS_Store
-node_modules
-.idea
-package-lock.json
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+/.nyc_output
+*.lcov
+
+# Production
 /build
+/dist
+/.next
+out/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
 .vscode/
 .idea/
-vite.config.*s.*
+*.suo
+*.sln
+*.swp
+*.swc
+*.iml
+*.iws
+*.ipr
+*~
+.eslintcache
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build output
+dist/
+build/
+.turbo/
+.cache/
+
+# Codacy related (do not track)
+.codacy.yml
+.codacy/
+codacy.instructions.md
+.codacy-coverage.json
+
+# Temporary files
+*.tmp
+*.bak
+.venv/
+venv/
+env/
+
+# IDE specific files
+.vscode/settings.json
+.vscode/extensions.json
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Package manager locks (optional - keep these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
